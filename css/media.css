@@ -1,0 +1,241 @@
+@media only screen and (max-width:1399px) {
+    .heading_sm {
+        font-size: 30px;
+    }
+    .heading_lg {
+        font-size: 40px ;
+    }
+    .heading_md {
+        font-size: 40px;
+    }
+    .padding1 {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .content_about{
+        text-align: justify;
+    }
+    .img_about {
+        width: 390px;
+    }
+    .para_about1 {
+        font-size: 23px;
+    }
+    .para_about2 {
+        font-size: 25px;
+    }
+    .card {
+        width: 90%;
+    }
+    .projects {
+        height: auto;
+    }
+    .card1 {
+        margin-top: 80px;
+        width: 400px;
+        height: 210px;
+    }
+    .img_project {
+        width: 400px;
+    }
+    .card1:before {
+        width: 35px;
+        height: 35px;
+    }
+    .card1:hover p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .home {
+        position: relative;
+        height: 60vh;
+    }
+    .img_home {
+        position: absolute;
+        top: 70px;
+        background-color: #2B2726;
+        box-shadow: none;
+        border-radius: 0;
+        z-index: -1;
+    }
+    .navbar a {
+        margin: 10px !important;
+    }
+    .home_content {
+        text-align: center;
+    }
+    .heading_sm {
+        font-size: 50px;
+    }
+    .heading_lg {
+        font-size: 60px ;
+    }
+    .heading_md {
+        font-size: 60px;
+    }
+    .about {
+        height: 80%;
+    }
+    .heading_about {
+        font-size: 40px;
+    }
+    .img_about {
+        display: none;
+    }
+    .list_about {
+        width: 75%;
+        position: relative;
+        bottom: 20%;
+        right: 25%;
+    }
+    .list_about h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .list_about b {
+        margin: 0;
+        font-size: 14px;
+    }
+    .list_about span{
+        display: block;
+        font-size: 11px;
+    }
+    .card {
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    .navbar {
+        padding: 40px !important;
+    }
+    .experience {
+        height: auto;
+    }
+    .skills {
+        height: auto;
+    }
+    .resume {
+        padding: 0px 9px;
+    }
+    .card1 {
+        position: relative;
+        left: 100px;
+        width: 500px;
+        height: 250px;
+    }
+    .img_project {
+        width: 500px;
+    }
+    .card1:before {
+        width: 45px;
+        height: 45px;
+    }
+    .padding1 {
+        margin-left: 0px;
+    }
+    .site-footer [class^=col-] {
+        margin-bottom:30px
+    }
+    iframe {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .heading_sm {
+        font-size: 30px;
+    }
+    .heading_lg {
+        font-size: 40px ;
+    }
+    .heading_md {
+        font-size: 40px;
+    }
+    .popup__photo{
+        display: none;
+    }
+    .popup__text {
+        width: 100%;
+    }
+    .heading_experience {
+        font-size: 40px;
+    }
+    .card1 {
+        position: relative;
+        left: 13%;
+        width: 350px;
+        height: 200px;
+    }
+    .img_project {
+        width: 350px;
+    }
+    .popuproject {
+        height: 100%;
+    }
+    .popuproject-inner {
+        max-width: auto;
+        max-height: auto;
+        height: auto;
+        width: auto;
+    }
+    .popuproject__photo {
+        background-color: #2B2726;
+    }
+    .popuproject__close {
+        color: #F0EC8B;
+    }
+    .card1:before {
+        width: 33px;
+        height: 33px;
+    }
+    .card1:hover p {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .social-icons li.title {
+        display:block;
+        margin-right:0;
+        font-weight:600
+    }
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .heading_about {
+        font-size: 35px;
+    }
+    .card1 {
+        position: relative;
+        left: 30px;
+        width: 300px;
+        height: 150px;
+    }
+    .img_project {
+        width: 300px;
+    }
+    .card1:before {
+        width: 28px;
+        height: 28px;
+    }
+    .card1:hover p {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .heading_sm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    .toggler-icon {
+        display: none !important;
+    }
+}

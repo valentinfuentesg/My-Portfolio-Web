@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Valentin - Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/d0ee164e31.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target="#nav" data-offset="70">
+    <!--navbar-->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="nav_container">
+                    <nav class="navbar navbar-expand-md py-0 fixed-top" data-bs-theme="dark" id="nav">
+                    <a class="navbar-brand text-light" href="index.html">V<span>F</span></a>
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#menu" 
+                    aria-controls="menu" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                                <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
+                                <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                                <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--home-->
+    <main class="home" id="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home_container">
+                        <div class="home_content">
+                            <h5 class="heading_sm">Hi!</h5>
+                            <h2 class="heading_lg">I'm <span>Valentin Fuentes</span></h2>
+                            <h5 class="heading_md">Frontend Developer</h5>
+                            <div class="social_links">
+                                <a href="https://www.instagram.com/valentinfuentesg_/" target="_blank"><i class="fa-brands icon_social fa-instagram"></i></a>
+                                <a href="https://twitter.com/VxlentinF" target="_blank"><i class="fa-brands icon_social fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/valentin-fuentes/" target="_blank"><i class="fa-brands icon_social fa-linkedin"></i></a>
+                                <a href="https://github.com/valentinfuentesg" target="_blank"><i class="fa-brands icon_social fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 img-home">
+                    <img src="images/ladoderecho_render.png" class="img_home img-fluid float-end" alt="Valentin">
+                </div>
+            </div>
+        </div>
+    </main>
+<!--about-->
+<section class="about" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="image-about">
+                    <img src="images/yosonriendorender.png" class="img_about img-fluid" alt="Aboutimg">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="content_about">
+                    <div class="scrollleft">
+                        <h5 class="subheadings">About Me</h5>
+                        <p class="para_about1">I'm a Frontend Developer Junior</p>
+                        <p class="para_text">As a passionate and continuously learning front-end developer, I always strive to keep up with the latest technology trends and continuously improve my skills in different programming languages. Being an effective person, I am confident that I can make a significant contribution to any project that I am involved in. My goal is to develop my creative ability while integrating my knowledge and values into everything that I do.</p>
+                    </div>
+                    <div class="container">
+                        <a class="button" href="#popup">Read More</a>
+                        <div class="popup" id="popup">
+                            <div class="popup-inner">
+                            <div class="popup__photo">
+                                <ul class="list_about">
+                                    <h1>Basic info</h1>
+                                    <li class="items"> <b>From: </b> <span>Caracas, Venezuela</span></li>
+                                    <li class="items"> <b>Lives in: </b> <span>Caracas, Venezuela</span></li>
+                                    <li class="items"> <b>Age: </b> <span>19</span></li>
+                                    <li class="items"> <b>Email: </b> <span>valentinfuentes2003@gmail.com</span></l>
+                                    <li class="items"> <b>Phone: </b> <span>+58-424-255-3899</span></li>
+                                </ul>
+                            </div>
+                            <div class="popup__text">
+                                <h1>Valentin Fuentes</h1>
+                                <p>Hi, welcome to my Portfolio! I am a front-end developer passionate about constant learning and staying up-to-date with the latest technology trends. I spend my time improving my skills in various programming languages.</p>
+                                <p>As an effective person, I am confident that I can make a significant contribution to any project I am involved in. My goal is to develop my creative ability and nurture my skill at integrating my knowledge and values into everything I do.</p>
+                                <p>I am very excited about the prospect of working in a professional and challenging environment, where I can continue to learn and improve my skills. As a front-end developer, my goal is to create solutions that make people's lives easier and more productive.</p>
+                            </div>
+                            <a class="popup__close" href="#about-section">X</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--experience-->
+<section class="experience" id="experience-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="headings-sections">Experience</h1>
+                <p class="resume">This is my summary of my work experiences. Throughout the years, I have had the opportunity to work in different sectors and challenge my professional skills. Each experience has been a cornerstone in my professional development, as I have learned valuable lessons at every step of the way.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img class="image_experience1 img-fluid" src="images/descarga-removebg-preview.png" alt="ridery">
+                        <div class="experience1">
+                            <h6>Customer Service Analyst</h6>
+                            <p>Since 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img class="image_experience2 img-fluid" src="images/descarga__2_-removebg-preview.png" alt="ridery">
+                        <div class="experience1">
+                            <h6>No Experience</h6>
+                            <p>Empty</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="tools">
+                        <div class="circle">
+                            <span class="red box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="yellow box"></span>
+                        </div>
+                        <div class="circle">
+                            <span class="green box"></span>
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <img class="image_experience2 img-fluid" src="images/descarga__2_-removebg-preview.png" alt="ridery">
+                        <div class="experience1">
+                                <h6>No Experience</h6>
+                                <p>Empty</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--skills-->
+<section class="skills" id="skills-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="headings-sections">My Skills</h1>
+                <p class="resume">These are the skills that I manage. I have learned them through various courses that I have taken, which have taught me to develop myself in different important areas of technology.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="progress-wrap scrollright">
+                    <h3>HTML5</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progress-wrap scrollleft">
+                    <h3>CSS3</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progress-wrap scrollright">
+                    <h3>JavaScript</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progress-wrap scrollleft">
+                    <h3>Bootstrap5</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progress-wrap scrollright">
+                    <h3>React</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progress-wrap scrollleft">
+                    <h3>Photoshop</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--projects-->
+<section class="projects" id="projects-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="headings-sections mt-4">My Projects</h1>
+                <p class="resume mb-5">These are my most recent projects, of which I am proud of the final outcome. I always strive to create and contribute to future projects. My goal is to continue growing and contributing to the development of new ideas and opportunities in the future. Each project is an opportunity to learn and improve my skills, and I continuously put in more effort to make a significant contribution in the initiatives I participate in.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="cardproject">
+                    <a class="card1 mb-5" href="#popuproject1">
+                        <img class="img_project" src="images/project1.png" alt="project1">
+                            <p>Click me for read more!</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                        <img src="images/rightarrow.png" alt="Rightarrow">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="popuproject" id="popuproject1">
+                    <div class="popuproject-inner">
+                        <div class="popuproject__photo">
+                            <h1>My First Project</h1>
+                            <p>Using HTML5, CSS3, SASS, BOOTSRAP5.</p>
+                            <div id="carouselExample1" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="images/project1.png" class="img_popuproject" alt="project1">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/projectabout.png" class="img_popuproject" alt="about">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/projectexperience.png" class="img_popuproject" alt="Experience">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/projectskills.png" class="img_popuproject" alt="Skills">
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="popuproject__close" href="#projects-section">X</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                <h5 class="subheadings">My Portfolio</h5>
+                <p class="para_text mt-5">This is the first web project I have completed, and it is my own portfolio. I have created it with the aim of showcasing my skills and reaching an audience that can hire me. My portfolio has an attractive and functional design, using the latest web technologies to create a pleasant experience for visitors. I am very proud of the final result and I hope this tool helps me open doors in my professional career.</p>
+            </div>
+            <hr class="border"></hr>
+            <div class="col-lg-6">
+                <h5 class="subheadings mt-5">Second</h5>
+                <p class="para_text mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, non, explicabo dignissimos quia alias laborum libero praesentium ratione vero sit enim eius suscipit? Tenetur numquam tempore impedit eaque cupiditate sint?</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="cardproject padding1">
+                    <a class="card1 mb-5" href="#popuproject2">
+                        <img class="img_project" src="images/slide.webp" alt="project1">
+                            <p>Click me for read more!</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                        <img src="images/rightarrow.png" alt="Rightarrow">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="popuproject" id="popuproject2">
+                    <div class="popuproject-inner">
+                        <div class="popuproject__photo">
+                            <h1>My Second Project</h1>
+                            <p>Using HTML5, CSS3, SASS, BOOTSRAP5.</p>
+                            <div id="carouselExample2" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project1">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project2">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project3">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="popuproject__close" href="#projects-section">X</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border"></hr>
+            <div class="col-lg-6">
+                <div class="cardproject">
+                    <a class="card1 mb-5" href="#popuproject3">
+                        <img class="img_project" src="images/slide.webp" alt="project1">
+                            <p>Click me for read more!</p>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                        <img src="images/rightarrow.png" alt="Rightarrow">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="popuproject" id="popuproject3">
+                    <div class="popuproject-inner">
+                        <div class="popuproject__photo">
+                            <h1>My Third Project</h1>
+                            <p>Using HTML5, CSS3, SASS, BOOTSRAP5.</p>
+                            <div id="carouselExample3" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project1">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project2">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project3">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="images/slide.webp" class="img_popuproject" alt="project4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="popuproject__close" href="#projects-section">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="subheadings mt-5">Third</h5>
+                <p class="para_text mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat laudantium cum est quisquam qui modi fugit temporibus laboriosam explicabo, iusto, adipisci commodi cupiditate. Recusandae error distinctio illo! Placeat, maxime.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+<section class="contact" id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"><h1 class="headings-sections mt-4">Contact Me</h1>
+                <p class="resume mb-5">I'm available for collaborations, interesting projects, and professional opportunities. If you have any inquiries or need more information about my services, I will be happy to assist you.</p>
+            </div>
+            <div class="row contactme">
+                <div class="col-lg-6">
+                    <iframe height="100%" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125549.02256968936!2d-66.97276786030956!3d10.468549976333447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a58adcd824807%3A0x93dd2eae0a998483!2sCaracas%2C%20Distrito%20Capital!5e0!3m2!1ses!2sve!4v1694031337835!5m2!1ses!2sve" width="630" height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <form class="colorful-form" action="https://formsubmit.co/aff32a2de3cd93207aaf786433bbb158" method="POST">
+                        <div class="title">Contact me</div>
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name:</label>
+                            <input required="" placeholder="Enter your name" class="form-input" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email:</label>
+                            <input required="" placeholder="Enter your email" class="form-input" name="email" id="email" type="email">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message:</label>
+                            <textarea required="" placeholder="Enter your message" class="form-input" name="message" id="message"></textarea>
+                        </div>
+                        <button class="form-button" type="submit">Submit</button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5501/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-9">
+                <h6>About</h6>
+                <p class="text-justify">Thank you for visiting my portfolio. In this space, you will find a showcase of my work and my passion for web design and development. If you would like to learn more about me or have any inquiries, please feel free to contact me. I would be delighted to collaborate with you on future projects.</p>
+            </div>
+            <div class="col-md-3">
+                <h6>My Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#about-section">About Me</a></li>
+                        <li><a href="#experience-section">My Experience</a></li>
+                        <li><a href="#projects-section">My Projects</a></li>
+                        <li><a href="#contact-section">Contact Me</a></li>
+                    </ul>
+                </div>
+        </div>
+        <hr>
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+            <a href="#">V<span>F</span></a>.
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/Valentin.Fuentes.39x" target="_blank"><i class="fa fa-facebook" target="_blank"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/VxlentinF" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="insta" href="https://www.instagram.com/valentinfuentesg_/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/valentin-fuentes/" target="_blank"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
+
