@@ -23,6 +23,52 @@ $(function() {
     
     });
 
+    function hideNavbar() {
+        var navbar = document.getElementById("nav");
+        navbar.style.display = "none";
+    }
+    
+    function showNavbar() {
+        var navbar = document.getElementById("nav");
+        navbar.style.display = "flex";
+    }
+    
+    document.querySelector("a.button",).addEventListener("click", function() {
+        hideNavbar();
+    });
+    
+    document.querySelector(".popup__close").addEventListener("click", function() {
+        showNavbar();
+        var navbar = document.querySelector('.navbar');
+        navbar.style.opacity = 0;
+        navbar.style.transform = 'translateY(-100px)';
+        navbar.style.transition = 'opacity 1s, transform 1s';
+        setTimeout(function() {
+            navbar.style.opacity = 1;
+            navbar.style.transform = 'translateY(0)';
+        }, 100);
+    });
+    
+    document.querySelectorAll("a.card1").forEach(function(card) {
+        card.addEventListener("click", function() {
+            hideNavbar();
+        });
+    });
+    
+    document.querySelectorAll(".popuproject__close").forEach(function(closeButton) {
+        closeButton.addEventListener("click", function() {
+            showNavbar();
+            var navbar = document.querySelector('.navbar');
+            navbar.style.opacity = 0;
+            navbar.style.transform = 'translateY(-100px)';
+            navbar.style.transition = 'opacity 1s, transform 1s';
+            setTimeout(function() {
+                navbar.style.opacity = 1;
+                navbar.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    });
+
 window.sr = ScrollReveal();
     sr.reveal('.navbar', {
         duration: 3000,
